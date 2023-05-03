@@ -1,8 +1,10 @@
-# Quote Carousel
+# Music Player (Quote Carousel)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/quote-carousel)
 
-A carousel of quotes.
+~~A carousel of quotes.~~
+A carouel of music! Dun dun duuuuun
+
 
 ## Why does this exist? 
 - Understand pros and cons of the UI pattern: sliders or carousels
