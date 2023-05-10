@@ -21,7 +21,16 @@ const data = [
     image: `url(assets/forest.jpg)`
   }
 ];
-
+const songs = [
+  {
+   songTitle: `“Be like a mountain.”`, 
+   artist: '🗻', 
+   album:"",
+   dateReleased:"",
+   albumCover: `url(assets/mountain.jpg)`,
+   song: ``
+  }, 
+];
 /*
 Quote and Emoji
 */
