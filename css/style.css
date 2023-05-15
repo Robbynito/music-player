@@ -100,6 +100,8 @@ h2 {
   flex-flow: row;
   justify-content: center;
   align-items: center;
+  border-color: white;
+  border-top: 5px;
 }
 
 #musicControls.img {
@@ -121,4 +123,11 @@ h2 {
 #random {
   width: 75px;
   height: 75px;
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: white;
+  background-color: white
 }
