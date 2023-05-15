@@ -252,4 +252,4 @@ document.addEventListener('keyup', (event) => {
   }
   
 });
-setInterval(recordRotate, 1000)
+setInterval(recordRotate, 1)
