@@ -50,6 +50,7 @@ main {
   border-radius: 100%;
   background-image: url("../assets/Screenshot\ 2023-05-08\ 204937.png");
   z-index: 100;
+  background-size: contain;
 }
 
 #recordPlayer {
