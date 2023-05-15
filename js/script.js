@@ -123,9 +123,9 @@ nextButton.addEventListener("click", () => {
   }
 
   // display data based on array index
-  quote.innerHTML = data[itemNumber].quote;
-  emoji.innerHTML = data[itemNumber].emoji;
-  bgImage.style.backgroundImage = data[itemNumber].image;
+  songTitle.innerHTML = data[itemNumber].title;
+  artist.innerHTML = data[itemNumber].artist;
+  albumCover.style.backgroundImage = data[itemNumber].image;
   
 });
   
@@ -141,9 +141,9 @@ prevButton.addEventListener("click", () => {
   }  
   
   // display data based on array index
-  quote.innerHTML = data[itemNumber].quote;
-  emoji.innerHTML = data[itemNumber].emoji;
-  bgImage.style.backgroundImage = data[itemNumber].image;
+  songTitle.innerHTML = data[itemNumber].title;
+  artist.innerHTML = data[itemNumber].artist;
+  albumCover.style.backgroundImage = data[itemNumber].image;
 });
 
 // listen for clicks on random button
@@ -153,9 +153,9 @@ randButton.addEventListener('click', () => {
   randomNumber = Math.floor ( Math.random() * data.length );
   
   // display data based random number
-  quote.innerHTML = data[randomNumber].quote;
-  emoji.innerHTML = data[randomNumber].emoji;
-  bgImage.style.backgroundImage = data[randomNumber].image;
+  songTitle.innerHTML = data[randomNumber].title;
+  artist.innerHTML = data[randomNumber].artist;
+  albumCover.style.backgroundImage = data[randomNumber].image;
   
 });
 
@@ -178,9 +178,9 @@ document.addEventListener('keyup', (event) => {
   }
 
   // display data based on array index
-  quote.innerHTML = data[itemNumber].quote;
-  emoji.innerHTML = data[itemNumber].emoji;
-  bgImage.style.backgroundImage = data[itemNumber].image;
+  songTitle.innerHTML = data[itemNumber].title;
+  artist.innerHTML = data[itemNumber].artist;
+  albumCover.style.backgroundImage = data[itemNumber].image;
     
   }
   
@@ -197,9 +197,9 @@ document.addEventListener('keyup', (event) => {
   }  
   
   // display data based on array index
-  quote.innerHTML = data[itemNumber].quote;
-  emoji.innerHTML = data[itemNumber].emoji;
-  bgImage.style.backgroundImage = data[itemNumber].image;
+  songTitle.innerHTML = data[itemNumber].title;
+  artist.innerHTML = data[itemNumber].artist;
+  albumCover.style.backgroundImage = data[itemNumber].image;
   }
   
   // Random Spacebar
@@ -209,9 +209,9 @@ document.addEventListener('keyup', (event) => {
     randomNumber = Math.floor ( Math.random() * data.length );
 
     // display data based random number
-    quote.innerHTML = data[randomNumber].quote;
-    emoji.innerHTML = data[randomNumber].emoji;
-    bgImage.style.backgroundImage = data[randomNumber].image;
+    songTitle.innerHTML = data[randomNumber].title;
+    artist.innerHTML = data[randomNumber].artist;
+    albumCover.style.backgroundImage = data[randomNumber].image;
   
   }
   
