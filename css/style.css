@@ -9,7 +9,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: beige;
+  background-color: lightgreen;
+ 
+  /* Smoothly transition the background color */
+  transition: background-color .5s;
   
   /* Extend full height of browser  */
   height: 100vh;
@@ -28,12 +31,17 @@ main {
   background-color: rgba(255, 255, 255, 0.25);
 }
 #record{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  background-image: URL(
+     "https://source.unsplash.com/Qrspubmx6kE/640x360");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 500px;
-  background-image: url("black_vinyl_2");
-  border-radius: 100%;
+  align-items: center
 }
 #albumCover {
   size: 75%;
