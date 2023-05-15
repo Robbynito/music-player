@@ -90,9 +90,9 @@ const songs = [
     song: "Visitor.mp3"
    }
 ];
-const songTitle = document.querySelector('songTitle');
-const artist = document.querySelector('artist');
-const albumCover = document.querySelector('albumCover');
+const songTitle = document.querySelector('#songTitle');
+const artist = document.querySelector('#artist');
+const albumCover = document.querySelector('#albumCover');
 
 songTitle.innerHTML = "Test.";
 artist.innerHTML = "Test";
