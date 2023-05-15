@@ -29,20 +29,18 @@ main {
 }
 
 #record {
-  size: 3em;
+  size: 100%;
   border-radius: 100%;
-  position: absolute;
 }
 #spinningRecord{
   display: flex;
   justify-content: center;
   align-items: center;
+  size: 500px;
 }
 #albumCover {
-  size: 2em;
+  size: 75%;
   border-radius: 100%;
-  left: 50%;
-  top: 50%;
 }
 
 #recordPlayer {
