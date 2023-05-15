@@ -156,6 +156,7 @@ nextButton.addEventListener("click", () => {
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
   currentSong.play();
+  rotations == 0
 });
   
 // listen for clicks on previous button
@@ -175,6 +176,8 @@ prevButton.addEventListener("click", () => {
   albumCover.style.backgroundImage = songs[itemNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
+  currentSong.play();
+  rotations == 0
 });
 
 // listen for clicks on random button
@@ -189,6 +192,8 @@ randButton.addEventListener('click', () => {
   albumCover.style.backgroundImage = songs[randomNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
+  currentSong.play();
+  rotations == 0
   
 });
 
@@ -216,6 +221,8 @@ document.addEventListener('keyup', (event) => {
   albumCover.style.backgroundImage = songs[itemNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
+  currentSong.play();
+  rotations == 0
     
   }
   
@@ -237,6 +244,8 @@ document.addEventListener('keyup', (event) => {
   albumCover.style.backgroundImage = songs[itemNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
+  currentSong.play();
+  rotations == 0
   }
   
   // Random Spacebar
@@ -251,6 +260,8 @@ document.addEventListener('keyup', (event) => {
     albumCover.style.backgroundImage = songs[randomNumber].image;
     bgrdColor.style.backgroundColor = songs[itemNumber].color;
     currentSong.src = songs[itemNumber].song;
+    currentSong.play();
+    rotations == 0
   
   }
   
