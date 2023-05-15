@@ -27,16 +27,13 @@ main {
   /* Add contrast to text */
   background-color: rgba(255, 255, 255, 0.25);
 }
-
-#record {
-  size: 100%;
-  border-radius: 100%;
-}
-#spinningRecord{
+#record{
   display: flex;
   justify-content: center;
   align-items: center;
   size: 500px;
+  background-image: url(assets/black_vinyl_2.png);
+  border-radius: 100%;
 }
 #albumCover {
   size: 75%;
