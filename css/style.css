@@ -32,8 +32,8 @@ main {
 }
 #record{
   margin: 25px;
-  height: 250px;
-  width: 250px;
+  height: 500px;
+  width: 500px;
   background-image: url(
      "../assets/black_vinyl_2.png");
   background-size: cover;
@@ -45,8 +45,8 @@ main {
   z-index: 1;
 }
 #albumCover {
-  width: 75%;
-  height: 75%;
+  width: 65%;
+  height: 65%;
   border-radius: 100%;
   background-image: url("../assets/Screenshot\ 2023-05-08\ 204937.png");
   z-index: 100;
