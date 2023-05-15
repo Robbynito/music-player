@@ -58,6 +58,8 @@ main {
   flex-flow: column;
 }
 #musicControls {
+  font-family: 'CabinetGrotesk-Extrabold';
+  margin-top: 25px;
   display: flex;
   flex-flow: column;
   justify-content: center;
