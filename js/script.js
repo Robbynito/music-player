@@ -1,4 +1,3 @@
-/* Data to Show*/
 const songs = [
   {
    title: "Black",
@@ -91,22 +90,13 @@ const songs = [
     song: "Visitor.mp3"
    }
 ];
-/*
-Quote and Emoji
-*/
-// blockquote
-const quote = document.querySelector('blockquote');
-// emoji
-const emoji = document.querySelector('p');
-// background
-const bgImage = document.querySelector('body');
+const songTitle = document.querySelector('songTitle');
+const artist = document.querySelector('artist');
+const albumCover = document.querySelector('albumCover');
 
-// Check-Check: change text
-quote.innerHTML = "Colin is quotable.";
-// Check-Check: change emoji text
-emoji.innerHTML = "👍️";
-// Check-Check: background image
-bgImage.style.backgroundImage= 'url(/assets/mountain.jpg)';
+songTitle.innerHTML = "Test.";
+artist.innerHTML = "Test";
+albumCover.style.backgroundImage= 'url(/assets/mountain.jpg)';
 
 /*
  * Navigate to Items with Event Listeners
