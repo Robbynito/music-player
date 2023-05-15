@@ -32,12 +32,13 @@ main {
   justify-content: center;
   align-items: center;
   width: 500px;
-  background-image: image("black_vinyl_2.png");
+  background-image: url('black_vinyl_2');
   border-radius: 100%;
 }
 #albumCover {
   size: 75%;
   border-radius: 100%;
+  background-image: url('Screenshot 2023-05-08 204937.png');
 }
 
 #recordPlayer {
