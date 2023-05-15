@@ -120,6 +120,8 @@ albumCover.style.backgroundImage= 'url(../assets/mountain.jpg)';
 */
 // initialize item number
 let itemNumber = 0;
+let isPlaying = false;
+let currentSong = document.createElement('audio')
 // get next button
 const nextButton = document.querySelector("img.next");
 // get previous button
@@ -143,6 +145,8 @@ nextButton.addEventListener("click", () => {
   artist.innerHTML = songs[itemNumber].artist;
   albumCover.style.backgroundImage = songs[itemNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
+  currentSong.src = songs[itemNumber].song;
+  currentSong.load();
   
 });
   
