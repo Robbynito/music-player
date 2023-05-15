@@ -105,30 +105,10 @@ h2 {
 }
 
 #musicControls.img {
-  width: 75px;
-  height: 75px;
+
   color: white;
 }
 
-#prev {
-  width: 75px;
-  height: 75px;
-}
-
-#next {
-  width: 75px;
-  height: 75px;
-}
-
-#random {
-  width: 75px;
-  height: 75px;
-}
-
-svg {
-  width: 75px;
-  height: 75px;
-}
 
 hr {
   height: 2px;
