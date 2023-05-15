@@ -26,3 +26,10 @@ main {
   /* Add contrast to text */
   background-color: rgba(255, 255, 255, 0.25);
 }
+
+#record {
+  size: 5em;
+}
+#albumCover {
+  size: 2.5em;
+}
