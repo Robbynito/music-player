@@ -4,21 +4,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url(../css/cabinet-grotesk.css);
 @import url(../css/satoshi.css);
-body {  
+
+body {
   /* Horizontal and Vertical Center */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: lightgreen;
- 
+
   /* Smoothly transition the background color */
   transition: background-color 1s;
-  
+
   /* Extend full height of browser  */
   height: 100vh;
-  
-  /* Load Background Images with JS. Style with CSS */ 
+
+  /* Load Background Images with JS. Style with CSS */
   background-size: cover;
 }
 
@@ -27,16 +28,16 @@ main {
   font-family: 'CabinetGrotesk-Extrabold';
   font-size: 5vmin;
   text-align: center;
-  
+
   /* Add contrast to text */
   background-color: rgba(255, 255, 255, 0.25);
 }
-#record{
+
+#record {
   margin: 25px;
   height: 500px;
   width: 500px;
-  background-image: url(
-     "../assets/black_vinyl_2.png");
+  background-image: url("../assets/black_vinyl_2.png");
   background-size: cover;
   background-position: center;
   border-radius: 100%;
@@ -45,6 +46,7 @@ main {
   align-items: center;
   z-index: 1;
 }
+
 #albumCover {
   width: 65%;
   height: 65%;
@@ -58,6 +60,7 @@ main {
   display: flex;
   flex-flow: column;
 }
+
 #information {
   font-family: 'CabinetGrotesk-Extrabold';
   margin-top: 25px;
@@ -70,20 +73,24 @@ main {
   color: white;
   margin-bottom: 25px;
 }
-h1{
+
+h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#songTitle{
+
+#songTitle {
   font-size: 3rem;
   margin-top: -20px;
 }
-h2{
+
+h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
   font-size: 1.5rem;
   margin-top: -30px;
 }
 
-#musicControls{
+#musicControls {
   width: 100vw;
   height: 20vh;
   background-color: #1E1E1E;
@@ -94,7 +101,8 @@ h2{
   justify-content: center;
   align-items: center;
 }
-#musicControls.img{
+
+#musicControls.img {
   width: 25px;
   height: 25px;
   color: white;
