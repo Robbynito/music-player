@@ -134,7 +134,7 @@ const record = document.querySelector("#record");
 function recordRotate() {
   if (isPlaying==true){
     rotations +=1,
-    record.style.transform = "rotate("[rotations];")"
+    record.style.transform = "rotate("+rotations+"deg)"
   }
 }
 
