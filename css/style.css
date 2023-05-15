@@ -42,5 +42,11 @@ main {
 
 #recordPlayer {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
+}
+#musicControls {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.35);;
 }
