@@ -146,7 +146,8 @@ nextButton.addEventListener("click", () => {
   albumCover.style.backgroundImage = songs[itemNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
-  currentSong.load();
+  currentSong.play();
+  isPlaying = true
   
 });
   
