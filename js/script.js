@@ -122,7 +122,7 @@ albumCover.style.backgroundImage= 'url(../assets/mountain.jpg)';
 let rotations = 0
 let itemNumber = 0;
 let isPlaying = true;
-let currentSong = document.createElement('audio')
+//let currentSong = document.createElement('audio')
 // get next button
 const nextButton = document.querySelector("img.next");
 // get previous button
