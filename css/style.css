@@ -31,7 +31,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  size: 500px;
+  width: 500px;
   background-image: url(assets/black_vinyl_2.png);
   border-radius: 100%;
 }
