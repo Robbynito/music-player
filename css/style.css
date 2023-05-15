@@ -82,7 +82,7 @@ h2{
 }
 
 #musicControls{
-  width: 100%;
+  width: 100vw;
   height: 20%;
   background-color: #1E1E1E;
   color: white;
