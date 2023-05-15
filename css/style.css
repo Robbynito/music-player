@@ -95,7 +95,7 @@ h2{
   align-items: center;
 }
 #musicControls.img{
-  width: 1rem;
-  height: 1rem;
+  width: 1em;
+  height: 1em;
   color: white;
 }
