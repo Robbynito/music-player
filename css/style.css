@@ -45,7 +45,8 @@ main {
   z-index: 1;
 }
 #albumCover {
-  size: 75%;
+  width: 75%;
+  height: 75%;
   border-radius: 100%;
   background-image: url("../assets/Screenshot\ 2023-05-08\ 204937.png");
   z-index: 100;
