@@ -38,15 +38,17 @@ main {
      "../assets/black_vinyl_2.png");
   background-size: cover;
   background-position: center;
-  border-radius: 15%;
+  border-radius: 100%;
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  z-index: 1;
 }
 #albumCover {
   size: 75%;
   border-radius: 100%;
   background-image: url("../assets/Screenshot\ 2023-05-08\ 204937.png");
+  z-index: 100;
 }
 
 #recordPlayer {
