@@ -117,15 +117,15 @@ nextButton.addEventListener("click", () => {
   itemNumber = itemNumber + 1;
   
   // if at LAST item
-  if ( itemNumber > data.length -1 ) {
+  if ( itemNumber > songs.length -1 ) {
     // reset counting to first item
     itemNumber = 0;
   }
 
   // display data based on array index
-  songTitle.innerHTML = data[itemNumber].title;
-  artist.innerHTML = data[itemNumber].artist;
-  albumCover.style.backgroundImage = data[itemNumber].image;
+  songTitle.innerHTML = songs[itemNumber].title;
+  artist.innerHTML = songs[itemNumber].artist;
+  albumCover.style.backgroundImage = songs[itemNumber].image;
   
 });
   
@@ -137,25 +137,25 @@ prevButton.addEventListener("click", () => {
   // if at FIRST item
   if ( itemNumber < 0 ) {
     // reset counting to last item
-    itemNumber = data.length -1;
+    itemNumber = songs.length -1;
   }  
   
   // display data based on array index
-  songTitle.innerHTML = data[itemNumber].title;
-  artist.innerHTML = data[itemNumber].artist;
-  albumCover.style.backgroundImage = data[itemNumber].image;
+  songTitle.innerHTML = songs[itemNumber].title;
+  artist.innerHTML = songs[itemNumber].artist;
+  albumCover.style.backgroundImage = songs[itemNumber].image;
 });
 
 // listen for clicks on random button
 randButton.addEventListener('click', () => {
   
   // generate random number, for total number, of items (data)
-  randomNumber = Math.floor ( Math.random() * data.length );
+  randomNumber = Math.floor ( Math.random() * songs.length );
   
   // display data based random number
-  songTitle.innerHTML = data[randomNumber].title;
-  artist.innerHTML = data[randomNumber].artist;
-  albumCover.style.backgroundImage = data[randomNumber].image;
+  songTitle.innerHTML = songs[randomNumber].title;
+  artist.innerHTML = songs[randomNumber].artist;
+  albumCover.style.backgroundImage = songs[randomNumber].image;
   
 });
 
@@ -172,15 +172,15 @@ document.addEventListener('keyup', (event) => {
   itemNumber = itemNumber + 1;
   
   // if at LAST item
-  if ( itemNumber > data.length -1 ) {
+  if ( itemNumber > songs.length -1 ) {
     // reset counting to first item
     itemNumber = 0;
   }
 
   // display data based on array index
-  songTitle.innerHTML = data[itemNumber].title;
-  artist.innerHTML = data[itemNumber].artist;
-  albumCover.style.backgroundImage = data[itemNumber].image;
+  songTitle.innerHTML = songs[itemNumber].title;
+  artist.innerHTML = songs[itemNumber].artist;
+  albumCover.style.backgroundImage = songs[itemNumber].image;
     
   }
   
@@ -193,25 +193,25 @@ document.addEventListener('keyup', (event) => {
   // if at FIRST item
   if ( itemNumber < 0 ) {
     // reset counting to last item
-    itemNumber = data.length -1;
+    itemNumber = songs.length -1;
   }  
   
   // display data based on array index
-  songTitle.innerHTML = data[itemNumber].title;
-  artist.innerHTML = data[itemNumber].artist;
-  albumCover.style.backgroundImage = data[itemNumber].image;
+  songTitle.innerHTML = songs[itemNumber].title;
+  artist.innerHTML = songs[itemNumber].artist;
+  albumCover.style.backgroundImage = songs[itemNumber].image;
   }
   
   // Random Spacebar
   if ( event.key === " ") {
     
     // generate random number, for total number, of items (data)
-    randomNumber = Math.floor ( Math.random() * data.length );
+    randomNumber = Math.floor ( Math.random() * songs.length );
 
     // display data based random number
-    songTitle.innerHTML = data[randomNumber].title;
-    artist.innerHTML = data[randomNumber].artist;
-    albumCover.style.backgroundImage = data[randomNumber].image;
+    songTitle.innerHTML = songs[randomNumber].title;
+    artist.innerHTML = songs[randomNumber].artist;
+    albumCover.style.backgroundImage = songs[randomNumber].image;
   
   }
   
