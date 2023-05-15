@@ -13,7 +13,7 @@ body {
   background-color: lightgreen;
  
   /* Smoothly transition the background color */
-  transition: background-color .5s;
+  transition: background-color 1s;
   
   /* Extend full height of browser  */
   height: 100vh;
