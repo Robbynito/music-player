@@ -31,12 +31,14 @@ main {
   display: ;
 }
 #record {
-  size: 5em;
+  size: 3em;
   border-radius: 100%;
   position: absolute;
 }
 #albumCover {
-  size: 2.5em;
+  size: 2em;
   border-radius: 100%;
   position: absolute;
+  left: 50%;
+  top: 50%;
 }
