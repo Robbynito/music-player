@@ -32,10 +32,14 @@ main {
   border-radius: 100%;
   position: absolute;
 }
+#spinningRecord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #albumCover {
   size: 2em;
   border-radius: 100%;
-  position: absolute;
   left: 50%;
   top: 50%;
 }
