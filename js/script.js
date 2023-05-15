@@ -4,105 +4,105 @@ const songs = [
    artist: "Okkervil River",
    image:`url("../assets/Black Cover.png")`,
    song: "Black.mp3",
-   color: "Black"
+   color: "#BB9203C"
   },
   {
     title: "Dancing",
     artist: "Sonic Sea Turtles",
     image:`url("../assets/Dancing Cover.png")`,
     song: "Dancing.mp3",
-    color: "Green"
+    color: "#06C367"
    },
    {
     title: "Happiness In Liquid Form",
     artist: "Alfie Templeton",
     image:`url("../assets/Happiness In Liquid Form Cover.png")`,
     song: "Happiness In Liquid Form.mp3",
-    color: "Pink"
+    color: "#D84295"
    },
    {
     title: "I Needed Love",
     artist: "Under the Rug",
     image:`url("../assets/I Needed Love Cover.png")`,
     song: "I Needed Love.mp3",
-    color: "Beige"
+    color: "#C6B196"
    },
    {
     title: "Lose Your Soul",
     artist: "Dead Man's Bones",
     image:`url("../assets/Lose Your Soul Cover.png")`,
     song: "Lose Your Soul.mp3",
-    color: "Red"
+    color: "#320104"
    },
    {
     title: "Low",
     artist: "egg",
     image:`url("../assets/Low Cover.png")`,
     song: "Low.mp3",
-    color: "Purple"
+    color: "#21031F"
    },
    {
     title: "Medicine",
     artist: "Matt Berry",
     image:`url("../assets/Medicine Cover.png")`,
     song: "Medicine.mp3",
-    color: "Tan"
+    color: "#2F2A26"
    },
    {
     title: "Notre Dame",
     artist: "Paris Paloma",
     image:`url("../assets/Notre Dame Cover.png")`,
     song: "notre dame.mp3",
-    color: "Blue"
+    color: "#050E2B"
    },
    {
     title: "Photo ID",
     artist: "Remi Wolf and Dominick Fike",
     image:`url("../assets/Photo ID Cover.png")`,
     song: "Photo ID.mp3",
-    color: "Lime-green"
+    color: "#FE2920"
    },
    {
     title: "Running Up That Hill",
     artist: "Meg Meyers",
     image:`url("../assets/Running Up That Hill Cover.png")`,
     song: "Running Up That Hill.mp3",
-    color: "Beige"
+    color: "#C1BAA7"
    },
    {
     title: "Rx",
     artist: "Your Neighbors",
     image:`url("../assets/Rx Cover.png")`,
     song: "Rx.mp3",
-    color: "Red"
+    color: "#8AADB8"
    },
    {
     title: "Silver Platters",
     artist: "Les Gold",
     image:`url("../assets/Silver Platters Cover.png")`,
     song: "Silver Platters.mp3",
-    color: "Silver"
+    color: "#B2B9C4"
    },
    {
     title: "The Love Club",
     artist: "Lorde",
     image:`url("../assets/The Love Club Cover.png")`,
     song: "The Love Club.mp3",
-    color: "Black"
+    color: "#A86062"
    },
    {
     title: "The Story I Heard",
     artist: "Blind Pilot",
     image:`url("../assets/The Story I Heard Cover.png")`,
     song: "The Story I Heard.mp3",
-    color: "Red"
+    color: "#142B35"
    },
    {
     title: "Visitor",
     artist: "Of Monsters and Men",
     image:`url("../assets/Visitor Cover.png")`,
     song: "Visitor.mp3",
-    color: "Black"
+    color: "#1E1E1E"
    }
 ];
 const songTitle = document.querySelector('#songTitle');

@@ -13,7 +13,7 @@ body {
   background-color: lightgreen;
  
   /* Smoothly transition the background color */
-  transition: background-color .5s;
+  transition: background-color .25s;
   
   /* Extend full height of browser  */
   height: 100vh;
@@ -67,7 +67,8 @@ main {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.35);;
   border-radius: 10%;
-  font-size: 1rem
+  font-size: 1rem;
+  color: white;
 }
 h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
