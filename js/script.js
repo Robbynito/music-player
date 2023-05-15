@@ -120,7 +120,7 @@ albumCover.style.backgroundImage= 'url(../assets/mountain.jpg)';
 */
 // initialize item number
 let itemNumber = 0;
-let isPlaying = false;
+let isPlaying = true;
 let currentSong = document.createElement('audio')
 // get next button
 const nextButton = document.querySelector("img.next");
@@ -128,6 +128,13 @@ const nextButton = document.querySelector("img.next");
 const prevButton = document.querySelector("img.prev");
 // get random button
 const randButton = document.querySelector("img.random");
+const record = document.querySelector("#record");
+
+function recordRotate() {
+  if (isPlaying==true){
+    record.style.transform = "rotate(1deg)"
+  }
+}
 
 // listen for clicks on next button
 nextButton.addEventListener("click", () => {
@@ -146,10 +153,6 @@ nextButton.addEventListener("click", () => {
   albumCover.style.backgroundImage = songs[itemNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
-  currentSong.load(itemNumber);
-  currentSong.play();
-  isPlaying = true
-  
 });
   
 // listen for clicks on previous button
@@ -168,6 +171,7 @@ prevButton.addEventListener("click", () => {
   artist.innerHTML = songs[itemNumber].artist;
   albumCover.style.backgroundImage = songs[itemNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
+  currentSong.src = songs[itemNumber].song;
 });
 
 // listen for clicks on random button
@@ -181,6 +185,7 @@ randButton.addEventListener('click', () => {
   artist.innerHTML = songs[randomNumber].artist;
   albumCover.style.backgroundImage = songs[randomNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
+  currentSong.src = songs[itemNumber].song;
   
 });
 
@@ -207,6 +212,7 @@ document.addEventListener('keyup', (event) => {
   artist.innerHTML = songs[itemNumber].artist;
   albumCover.style.backgroundImage = songs[itemNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
+  currentSong.src = songs[itemNumber].song;
     
   }
   
@@ -227,6 +233,7 @@ document.addEventListener('keyup', (event) => {
   artist.innerHTML = songs[itemNumber].artist;
   albumCover.style.backgroundImage = songs[itemNumber].image;
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
+  currentSong.src = songs[itemNumber].song;
   }
   
   // Random Spacebar
@@ -240,7 +247,9 @@ document.addEventListener('keyup', (event) => {
     artist.innerHTML = songs[randomNumber].artist;
     albumCover.style.backgroundImage = songs[randomNumber].image;
     bgrdColor.style.backgroundColor = songs[itemNumber].color;
+    currentSong.src = songs[itemNumber].song;
   
   }
   
 });
+setInterval(recordRotate, 1000)
