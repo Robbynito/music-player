@@ -34,8 +34,8 @@ main {
   margin: 25px;
   height: 250px;
   width: 250px;
-  background-image: URL(
-     "https://source.unsplash.com/Qrspubmx6kE/640x360");
+  background-image: url(
+     "../assets/black_vinyl_2.png");
   background-size: cover;
   background-position: center;
   border-radius: 15%;
@@ -46,7 +46,7 @@ main {
 #albumCover {
   size: 75%;
   border-radius: 100%;
-  background-image: url("Screenshot 2023-05-08 204937.png");
+  background-image: url("../assets/Screenshot\ 2023-05-08\ 204937.png");
 }
 
 #recordPlayer {
