@@ -2,7 +2,8 @@
 
 /* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
+@import url(../css/cabinet-grotesk.css);
+@import url(../css/satoshi.css);
 body {  
   /* Horizontal and Vertical Center */
   display: flex;
@@ -66,7 +67,7 @@ main {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.35);;
   border-radius: 10%;
-  font-size: .5rem
+  font-size: 1rem
 }
 h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
