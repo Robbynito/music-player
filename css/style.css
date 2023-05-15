@@ -125,6 +125,11 @@ h2 {
   height: 75px;
 }
 
+svg {
+  width: 75px;
+  height: 75px;
+}
+
 hr {
   height: 2px;
   border-width: 0;
