@@ -2,91 +2,91 @@ const songs = [
   {
    title: "Black",
    artist: "Okkervil River",
-   image:`url(../assets/Black Cover.png)`,
+   image:`url("../assets/Black Cover.png")`,
    song: "Black.mp3"
   },
   {
     title: "Dancing",
     artist: "Sonic Sea Turtles",
-    image:`url(../assets/Dancing Cover.png)`,
+    image:`url("../assets/Dancing Cover.png")`,
     song: "Dancing.mp3"
    },
    {
     title: "Happiness In Liquid Form",
     artist: "Alfie Templeton",
-    image:`url(../assets/Happiness In Liquid Form Cover.png)`,
+    image:`url("../assets/Happiness In Liquid Form Cover.png")`,
     song: "Happiness In Liquid Form.mp3"
    },
    {
     title: "I Needed Love",
     artist: "Under the Rug",
-    image:`url(../assets/I Needed Love Cover.png)`,
+    image:`url("../assets/I Needed Love Cover.png")`,
     song: "I Needed Love.mp3"
    },
    {
     title: "Lose Your Soul",
     artist: "Dead Man's Bones",
-    image:`url(../assets/Lose Your Soul Cover.png)`,
+    image:`url("../assets/Lose Your Soul Cover.png")`,
     song: "Lose Your Soul.mp3"
    },
    {
     title: "Low",
     artist: "egg",
-    image:`url(../assets/Low Cover.png)`,
+    image:`url("../assets/Low Cover.png")`,
     song: "Low.mp3"
    },
    {
     title: "Medicine",
     artist: "Matt Berry",
-    image:`url(../assets/Medicine Cover.png)`,
+    image:`url("../assets/Medicine Cover.png")`,
     song: "Medicine.mp3"
    },
    {
     title: "Notre Dame",
     artist: "Paris Paloma",
-    image:`url(../assets/Notre Dame Cover.png)`,
+    image:`url("../assets/Notre Dame Cover.png")`,
     song: "notre dame.mp3"
    },
    {
     title: "Photo ID",
     artist: "Remi Wolf and Dominick Fike",
-    image:`url(../assets/Photo ID Cover.png)`,
+    image:`url("../assets/Photo ID Cover.png")`,
     song: "Photo ID.mp3"
    },
    {
     title: "Running Up That Hill",
     artist: "Meg Meyers",
-    image:`url(../assets/Running Up That Hill Cover.png)`,
+    image:`url("../assets/Running Up That Hill Cover.png")`,
     song: "Running Up That Hill.mp3"
    },
    {
     title: "Rx",
     artist: "Your Neighbors",
-    image:`url(../assets/Rx Cover.png)`,
+    image:`url("../assets/Rx Cover.png")`,
     song: "Rx.mp3"
    },
    {
     title: "Silver Platters",
     artist: "Les Gold",
-    image:`url(../assets/Silver Platters Cover.png)`,
+    image:`url("../assets/Silver Platters Cover.png")`,
     song: "Silver Platters.mp3"
    },
    {
     title: "The Love Club",
     artist: "Lorde",
-    image:`url(../assets/The Love Club Cover.png)`,
+    image:`url("../assets/The Love Club Cover.png")`,
     song: "The Love Club.mp3"
    },
    {
     title: "The Story I Heard",
     artist: "Blind Pilot",
-    image:`url(../assets/The Story I Heard Cover.png)`,
+    image:`url("../assets/The Story I Heard Cover.png")`,
     song: "The Story I Heard.mp3"
    },
    {
     title: "Visitor",
     artist: "Of Monsters and Men",
-    image:`url(../assets/Visitor Cover.png)`,
+    image:`url("../assets/Visitor Cover.png")`,
     song: "Visitor.mp3"
    }
 ];
