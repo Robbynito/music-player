@@ -187,11 +187,11 @@ randButton.addEventListener('click', () => {
   randomNumber = Math.floor(Math.random() * songs.length);
 
   // display data based random number
-  songTitle.innerHTML = songs[itemNumber].title;
-  artist.innerHTML = songs[itemNumber].artist;
-  albumCover.style.backgroundImage = songs[itemNumber].image;
-  bgrdColor.style.backgroundColor = songs[itemNumber].color;
-  currentSong.src = songs[itemNumber].song;
+  songTitle.innerHTML = songs[randomNumber].title;
+  artist.innerHTML = songs[randomNumber].artist;
+  albumCover.style.backgroundImage = songs[randomNumber].image;
+  bgrdColor.style.backgroundColor = songs[randomNumber].color;
+  currentSong.src = songs[randomNumber].song;
   currentSong.play();
   record.style.transform = "rotate(" + 0 + "deg)"
 
@@ -255,11 +255,11 @@ document.addEventListener('keyup', (event) => {
     randomNumber = Math.floor(Math.random() * songs.length);
 
     // display data based random number
-    songTitle.innerHTML = songs[itemNumber].title;
-    artist.innerHTML = songs[itemNumber].artist;
-    albumCover.style.backgroundImage = songs[itemNumber].image;
-    bgrdColor.style.backgroundColor = songs[itemNumber].color;
-    currentSong.src = songs[itemNumber].song;
+    songTitle.innerHTML = songs[randomNumber].title;
+    artist.innerHTML = songs[randomNumber].artist;
+    albumCover.style.backgroundImage = songs[randomNumber].image;
+    bgrdColor.style.backgroundColor = songs[randomNumber].color;
+    currentSong.src = songs[randomNumber].song;
     currentSong.play();
     record.style.transform = "rotate(" + 0 + "deg)"
 
