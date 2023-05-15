@@ -156,7 +156,7 @@ nextButton.addEventListener("click", () => {
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
   currentSong.play();
-  rotations == 0
+  record.style.transform = "rotate("+0+"deg)"
 });
   
 // listen for clicks on previous button
@@ -177,7 +177,7 @@ prevButton.addEventListener("click", () => {
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
   currentSong.play();
-  rotations == 0
+  record.style.transform = "rotate("+0+"deg)"
 });
 
 // listen for clicks on random button
@@ -193,7 +193,7 @@ randButton.addEventListener('click', () => {
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
   currentSong.play();
-  rotations == 0
+  record.style.transform = "rotate("+0+"deg)"
   
 });
 
@@ -222,7 +222,7 @@ document.addEventListener('keyup', (event) => {
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
   currentSong.play();
-  rotations == 0
+  record.style.transform = "rotate("+0+"deg)"
     
   }
   
@@ -245,7 +245,7 @@ document.addEventListener('keyup', (event) => {
   bgrdColor.style.backgroundColor = songs[itemNumber].color;
   currentSong.src = songs[itemNumber].song;
   currentSong.play();
-  rotations == 0
+  record.style.transform = "rotate("+0+"deg)"
   }
   
   // Random Spacebar
@@ -261,7 +261,7 @@ document.addEventListener('keyup', (event) => {
     bgrdColor.style.backgroundColor = songs[itemNumber].color;
     currentSong.src = songs[itemNumber].song;
     currentSong.play();
-    rotations == 0
+    record.style.transform = "rotate("+0+"deg)"
   
   }
   
