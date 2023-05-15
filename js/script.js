@@ -119,6 +119,7 @@ albumCover.style.backgroundImage= 'url(../assets/mountain.jpg)';
  * Track Number of Items
 */
 // initialize item number
+let rotations = 0
 let itemNumber = 0;
 let isPlaying = true;
 let currentSong = document.createElement('audio')
@@ -132,7 +133,8 @@ const record = document.querySelector("#record");
 
 function recordRotate() {
   if (isPlaying==true){
-    record.style.transform = "rotate(1deg)"
+    rotations +=1,
+    record.style.transform = "rotate("[rotations];")"
   }
 }
 
